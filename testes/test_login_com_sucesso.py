@@ -26,10 +26,9 @@ class TestLogin:
         field_password.send_keys('admin')
       
         btn_link_sign_in = driver.find_element(By.CSS_SELECTOR,'#container_login > div.row > div.sc-hKgKIp.jITFtB.col-md-6 > div > div.sc-pGaPU.hXoUhX > button') 
-        
         btn_link_sign_in.click()
         
-        field_password.send_keys(Keys.RETURN)
+        # field_password.send_keys(Keys.RETURN)
         
         
         
